@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--fifth-color);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  background: var(--fourth-color);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--second-color);
+}
+
+:root {
+  /* colors */
+  --first-color: #361d32;
+  --second-color: #543c52;
+  --third-color: #f55951;
+  --fourth-color: #f1e8e6;
+  --fifth-color: #f1e8e6;
+  --black-: #000;
+  --white: #fff;
+}
+
+/* *REUSED STYLE */
+
+.container {
+  padding-inline: 10%;
+}
+
+.btn {
+  background: var(--white);
+  color: var(--black-);
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dark-btn {
+  background: var(--first-color);
+  color: white;
+  border: 1px solid var(--fourth-color);
+}
+
+/* media query */
+
+@media (max-width: 1200px) {
+  .container {
+    padding-inline: 5%;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

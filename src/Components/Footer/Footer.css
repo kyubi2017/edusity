@@ -1,0 +1,32 @@
+.footer{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--first-color);
+    padding: 15px 0;
+}
+
+.footer ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: var(--third-color);
+    font-size: 1.1rem;
+}
+
+/* media query */
+
+@media (max-width: 800px){
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .footer ul li{
+        display: block;
+    }
+}
