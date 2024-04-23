@@ -34,7 +34,7 @@ To run this project locally, follow these steps:
 
 ## Live Demo
 
-You can view a live demo of this project [here](https://travelia-nine.vercel.app/).
+You can view a live demo of this project [here](https://edusity-wheat.vercel.app/).
 
 ## Contributing
 
